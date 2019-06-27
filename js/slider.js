@@ -138,7 +138,7 @@
 		$('.blacku3').css('left',tnowleft)
 	}
 	
-	$('.blacku1-btn').click(function(){
+	$('.blacku3-btn').click(function(){
 		var num=$(this).index();
 		clearInterval(timer)
 		$('.blacku3').css('transition','')
