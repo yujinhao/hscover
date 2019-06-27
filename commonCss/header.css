@@ -82,7 +82,7 @@
 
 #headerc-search {
 	width: 347px;
-	height: 67px;
+	height: 75px;
 	/*background: cornflowerblue;*/
 	float: right;
 	position: relative;
@@ -115,11 +115,11 @@
 
 .headerc-menu-li a: {
 	font-size: 14px;
-	color: #666666;
+	color: #00bfff !important;
 }
 
 .headerc-menu-li a:hover {
-	color: deepskyblue;
+	color: #1e90ff;
 }
 
 .btn-Topbox1:hover .topbox1 {
@@ -175,6 +175,7 @@
 }
 
 #search {
+	padding-left: 10px;
 	width: 300px;
 	height: 40px;
 	border: 1px solid darkgrey;
@@ -192,18 +193,20 @@
 	position: absolute;
 	top: 0px;
 	right: 5px;
+	cursor: pointer;
 }
 
 #searchbtn:hover {
-	background-color: deepskyblue;
+	background-color: #00bfff;
 }
 
 #headerc-search a {
+	margin: 8px 10px;
 	display: inline-block;
 }
 
 #headerc-search a:hover {
-	color: deepskyblue;
+	color: #00bfff;
 }
 
 
@@ -215,8 +218,8 @@
 	background: grey;
 	opacity: 0.8;
 	position: fixed;
-	top: 85%;
-	right: 40px;
+	top: 90%;
+	right: 60px;
 	text-align: center;
 	display: none;
 	z-index: 20;
@@ -317,7 +320,7 @@
 #body-right {
 	position: fixed;
 	right: 0;
-	top: 50%;
+	top: 60%;
 	height: 100px;
 	width: 100px;
 	background: dodgerblue;
@@ -330,8 +333,9 @@
 #body-help {
 	position: absolute;
 	display: none;
-	left: -45px;
+	right: 0;
 	top: -130px;
+	cursor: pointer;
 }
 
 #body-right:hover #body-help {

@@ -104,6 +104,9 @@ $(function() {
 		index();
 	}
 
+
+
+
 	//js实现水平轮播	222222222222222222
 	var onsaleinow = 0;
 	var onsaleul = document.getElementById('onsale-box-ul');
@@ -113,7 +116,7 @@ $(function() {
 	var onsalebefore = document.getElementById('onsale-before')
 
 	function onsalechangleft() {
-		var nowleft = -onsaleinow * 1226;
+		var nowleft = -onsaleinow * 244;
 		//js要带px单位
 		onsaleul.style.left = nowleft + 'px';
 
